@@ -3,7 +3,7 @@ import GoogleMapReact from "google-map-react";
 import { Paper, useMediaQuery, Typography } from "@material-ui/core";
 import { LocationOnOutlined } from "@mui/icons-material";
 import { Rating } from "@mui/material";
-
+//
 import useStyles from "./styles";
 
 const Map = ({ setBounds, setCoordinates, coordinates, places, setChildClicked, defaultCenter }) => {
